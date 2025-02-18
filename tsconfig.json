@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",          // Pasta de saída para os arquivos compilados
+    "rootDir": "./src",          // Pasta raiz dos arquivos TypeScript
+    "strict": true,             // Habilita verificações de tipo estritas
+    "esModuleInterop": true,    // Permite a interoperabilidade entre CommonJS e ES Modules
+    "skipLibCheck": true        // Ignora a verificação de tipos nas bibliotecas
+  },
+  "include": ["src/**/*", "babel.config.js", "jest.config.js"]       // Inclui todos os arquivos na pasta src
+}
