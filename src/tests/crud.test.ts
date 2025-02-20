@@ -13,4 +13,8 @@ describe('crud testes', () => {
         expect(crud.deleteTask('programar')).toEqual("Task removida com sucesso.");
     })
 
+    test('Dado um tipo de dado o metodo deve editar o novo valor pelo antigo e retorna sucesso.', () => {
+        expect(crud.editarTask("desenvolvedor", 0)).toEqual("task editada com sucesso.");
+    })
+
 })
